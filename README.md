@@ -16,20 +16,22 @@ Display student and course lists with assigned grades
 
 Menu-driven interface for easy navigation
 
-# 🧠 Concepts Used #
-Concept	Description
-Classes and Objects	Used to represent students, courses, and enrollments
-Encapsulation	Ensures data protection using private fields and getter/setter methods
-Arrays / ArrayLists	Store multiple student and course records dynamically
-Conditional Statements	Validate user input and control program flow
-Loops	Iterate through lists of students and courses
-# ▶️ How to Run #
+## 🧠 Concepts Used
 
-1️⃣ Open a terminal in the project directory.
-2️⃣ Compile the program:
+| Concept | Description |
+|----------|-------------|
+| **Classes and Objects** | Used to represent students, courses, and enrollments |
+| **Encapsulation** | Ensures data protection using private fields and getter/setter methods |
+| **Arrays / ArrayLists** | Store multiple student and course records dynamically |
+| **Conditional Statements** | Validate user input and control program flow |
+| **Loops** | Iterate through lists of students and courses |
 
+## ▶️ How to Run
+
+1️⃣ Open a terminal in the project directory.  
+2️⃣ Compile the program:  
+```bash
 javac Main.java
-
 
 3️⃣ Run the program:
 
