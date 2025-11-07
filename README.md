@@ -32,12 +32,16 @@ Menu-driven interface for easy navigation
 2️⃣ Compile the program:  
 ```bash
 javac Main.java
+```
 
 3️⃣ Run the program:
-
+```bash
 java Main
+```
 
 # 🧾 Example Menu #
+
+```bash
 ===== Course Enrollment and Grade Management System =====
 1. Add a new student
 2. Add a new course
@@ -46,6 +50,7 @@ java Main
 5. Display all student data
 6. Exit
 Enter your choice:
+```
 
 # 🏫 Educational Context #
 
