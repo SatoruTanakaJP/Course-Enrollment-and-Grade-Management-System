@@ -1,37 +1,45 @@
-# 🧩 Overview #
+# 🎓 Course Enrollment and Grade Management System
 
-This project is a Java-based console application developed as part of a university assignment.
-It allows users to manage student information, course registration, and grade records efficiently within a simple text-based interface.
-The system emphasizes key programming concepts such as object-oriented design, data structures, and user input validation.
+## 🧩 Overview
+This project is a **Java console-based system** that allows administrators to manage courses, enroll students, assign grades, and compute overall averages.  
+Developed for a **University of the People programming assignment**, it demonstrates **object-oriented programming, collections, encapsulation, and control flow**.  
+The program supports multiple students and courses within a simple, menu-driven interface.
 
-# ⚙️ Features #
+---
 
-Register new students and courses
+## ⚙️ Features
+- **Add new courses** with course code, name, and maximum capacity  
+- **Enroll students** in available courses with automatic capacity checks  
+- **Assign grades** to enrolled students  
+- **Compute and display overall grades** for each student  
+- Uses a **menu-driven interface** for continuous interaction  
+- Validates input and handles common user errors gracefully  
 
-Enroll students in available courses
-
-Record and update student grades
-
-Display student and course lists with assigned grades
-
-Menu-driven interface for easy navigation
+---
 
 ## 🧠 Concepts Used
 
 | Concept | Description |
 |----------|-------------|
-| **Classes and Objects** | Used to represent students, courses, and enrollments |
-| **Encapsulation** | Ensures data protection using private fields and getter/setter methods |
-| **Arrays / ArrayLists** | Store multiple student and course records dynamically |
-| **Conditional Statements** | Validate user input and control program flow |
-| **Loops** | Iterate through lists of students and courses |
+| **Classes and Objects** | `Course`, `Student`, `CourseManagement`, and `Main` represent modular components |
+| **Encapsulation** | Private fields with getter/setter methods protect internal data |
+| **Static Variables and Methods** | Track total enrollments and provide class-level management functions |
+| **ArrayList** | Store collections of students and courses dynamically |
+| **HashMap** | Associate courses with their grades per student |
+| **Conditional Statements & Loops** | Control menu navigation, input validation, and logic flow |
+| **Composition** | Each `Course` contains enrolled `Student` objects; `Student` holds `Course` references |
+| **Abstraction** | Course and student details are managed via high-level methods in `CourseManagement` |
+| **Exception Prevention** | Input handling and bounds checking reduce runtime errors |
+
+---
 
 ## ▶️ How to Run
 
 1️⃣ Open a terminal in the project directory.  
-2️⃣ Compile the program:  
+2️⃣ Compile all classes:
 ```bash
 javac Main.java
+
 ```
 
 3️⃣ Run the program:
@@ -39,19 +47,14 @@ javac Main.java
 java Main
 ```
 
-# 🧾 Example Menu #
 
-```bash
-===== Course Enrollment and Grade Management System =====
-1. Add a new student
-2. Add a new course
-3. Enroll a student
-4. Input or update grades
-5. Display all student data
-6. Exit
-Enter your choice:
-```
+## 🏫 Educational Context
 
-# 🏫 Educational Context #
+This project was created for a Computer Science course at the University of the People to demonstrate:
 
-This project was created as part of a Computer Science assignment at the University of the People to demonstrate mastery of Java fundamentals, structured programming, and OOP principles.
+Core OOP principles (encapsulation, composition, static data)
+
+Use of Java collections (ArrayList, HashMap)
+
+User-driven control flow via console interface
+It provides hands-on experience with data modeling and system design fundamentals in Java.
