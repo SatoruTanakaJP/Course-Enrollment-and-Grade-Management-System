@@ -1,10 +1,10 @@
-🧩 Overview
+# 🧩 Overview #
 
 This project is a Java-based console application developed as part of a university assignment.
 It allows users to manage student information, course registration, and grade records efficiently within a simple text-based interface.
 The system emphasizes key programming concepts such as object-oriented design, data structures, and user input validation.
 
-⚙️ Features
+# ⚙️ Features #
 
 Register new students and courses
 
@@ -16,14 +16,14 @@ Display student and course lists with assigned grades
 
 Menu-driven interface for easy navigation
 
-🧠 Concepts Used
+# 🧠 Concepts Used #
 Concept	Description
 Classes and Objects	Used to represent students, courses, and enrollments
 Encapsulation	Ensures data protection using private fields and getter/setter methods
 Arrays / ArrayLists	Store multiple student and course records dynamically
 Conditional Statements	Validate user input and control program flow
 Loops	Iterate through lists of students and courses
-▶️ How to Run
+# ▶️ How to Run #
 
 1️⃣ Open a terminal in the project directory.
 2️⃣ Compile the program:
@@ -35,7 +35,7 @@ javac Main.java
 
 java Main
 
-🧾 Example Menu
+# 🧾 Example Menu #
 ===== Course Enrollment and Grade Management System =====
 1. Add a new student
 2. Add a new course
@@ -45,6 +45,6 @@ java Main
 6. Exit
 Enter your choice:
 
-🏫 Educational Context
+# 🏫 Educational Context #
 
 This project was created as part of a Computer Science assignment at the University of the People to demonstrate mastery of Java fundamentals, structured programming, and OOP principles.
